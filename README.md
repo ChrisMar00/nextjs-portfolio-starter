@@ -32,3 +32,10 @@ yarn create next-app --example blog my-blog
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+No spaces in page name
+Go next line if importing images (import image)
+
+Commands:
+npm i
+npm run dev

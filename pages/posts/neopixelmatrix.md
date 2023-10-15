@@ -1,7 +1,7 @@
 ---
-title: Coilgun MK.IV
+title: NeoPixel Matrix
 date: 15/10/2023
-description: Coilgun MK.IV breakdown
+description: NeoPixel Matrix project
 tag: Electronics
 author: Chris
 ---
