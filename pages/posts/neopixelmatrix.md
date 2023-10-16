@@ -1,8 +1,8 @@
 ---
-title: NeoPixel Matrix
-date: 15/10/2023
-description: NeoPixel Matrix project
-tag: Electronics
+title: NeoPixel Matrix 48x48
+date: 2023/10/16
+description: NeoPixel Matrix 48x48 breakdown
+tag: Electronics, Esp32
 author: Chris
 ---
 

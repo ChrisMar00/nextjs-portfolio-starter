@@ -1,12 +1,12 @@
 ---
 title: Coilgun MK.IV
-date: 15/10/2023
+date: 2023/10/16
 description: Coilgun MK.IV breakdown
-tag: Electronics
+tag: Electronics, Esp32, Electromagnetism
 author: Chris
 ---
 
-# Markdown Examples
+# Coilgun MK.IV
 
 ## h2 Heading
 
