@@ -9,7 +9,7 @@ author: Chris
 # Preamble
 
 <p>One of my favorite projects that I ever made.</p>
-<p>Many years ago, when I was still in middle school, I started watching ElectroBoom and one of his video [sparked my curiosity](https://www.youtube.com/watch?v=mdZo_keUoEs).
+<p>Many years ago, when I was still in middle school, I started watching ElectroBoom and one of his [video](https://www.youtube.com/watch?v=mdZo_keUoEs) sparked my curiosity.
 The possibility to create a "gun" that runs purely on electricity trilled me. So I started designing one on my own, with zero experience in electronics and programming.</p>
 
 ## Working principle
