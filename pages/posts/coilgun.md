@@ -90,7 +90,7 @@ import Image from 'next/image'
 
 - Instead of using an Arduino Nano as the MCU I switched to the more powerful Esp32
 - The IR led and receiver were replaced with an easier to use [CNY70](https://www2.mouser.com/ProductDetail/Vishay-Semiconductors/CNY70?qs=%2Fjqivxn91cdreAm7vR28%252BA%3D%3D) IR sensor
-- The old boost converter was trashed and replaced with a much efficient and powerful [ZVS Driver]()
+- The old boost converter was trashed and replaced with a much more efficient and powerful [ZVS Driver]()
 
 <p>All of these changes where channeled in the final MK.III.</p>
 
