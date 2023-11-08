@@ -70,8 +70,8 @@ import Image from 'next/image'
 <Image
   src="/images/Coilgun_MK2_Lattina.gif"
   alt="Coilgun MK.II penetration"
-  width={1125}
-  height={750}
+  width={640}
+  height={352}
   priority
   className="next-image"
 />
