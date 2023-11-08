@@ -67,6 +67,17 @@ import Image from 'next/image'
 
 <p>The bullet used was a headless 4.5 mm steel nail, weighting ~5g and long ~4cm.</p>
 
+<Image
+  src="/images/Coilgun_MK2_Lattina.gif"
+  alt="Coilgun MK.II penetration"
+  width={1125}
+  height={750}
+  priority
+  className="next-image"
+/>
+
+<p>Here you can see the coilgun penetrating a soda can.</p>
+
 ### Features
 - Arduino Nano as the MCU
 - 4 Stages, each one with 2x 400V@1500uF capacitors in parallel
