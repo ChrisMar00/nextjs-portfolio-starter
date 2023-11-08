@@ -92,7 +92,7 @@ import Image from 'next/image'
 - The IR led and receiver were replaced with an easier to use [CNY70](https://www2.mouser.com/ProductDetail/Vishay-Semiconductors/CNY70?qs=%2Fjqivxn91cdreAm7vR28%252BA%3D%3D) IR sensor
 - The old boost converter was trashed and replaced with a much more efficient and powerful [ZVS Driver]()
 
-<p>All of these changes where channeled in the final MK.III.</p>
+<p>In the end I decided to scrap this design beacuse I wanted something more modular and easier to assemble. So all of these changes where channeled in the final MK.III design.</p>
 
 <Image
   src="/images/Coilgun_MK3_Prototype.png"
