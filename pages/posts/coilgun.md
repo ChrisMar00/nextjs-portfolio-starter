@@ -9,6 +9,7 @@ author: Chris
 # Preamble
 
 <p>One of my favorite projects that I ever made.</p>
+
 <p>Many years ago, when I was still in middle school, I started watching ElectroBoom and one of his [video](https://www.youtube.com/watch?v=mdZo_keUoEs) sparked my curiosity.
 The possibility to create a "gun" that runs purely on electricity trilled me. So I started designing one on my own, with zero experience in electronics and programming.</p>
 
@@ -30,6 +31,7 @@ The possibility to create a "gun" that runs purely on electricity trilled me. So
 ### The Solenoid
 
 <p>The most important part of a coilgun its the coil itself. A solenoid is just a piece of wire, usually enamel copper wire, wound to resamble a cilinder.</p>
+
 <p>By passing an electric current into the solenoid we generate a magnetic field that can attrack ferromagnetic objects insiede of it. The attraction can be calculated using this formula:</p>
 
 import Image from 'next/image'
@@ -44,6 +46,7 @@ import Image from 'next/image'
 />
 
 <p>where B is the magnetic flux generated from the solenoid, μ0 is the magnetic costant of the material, N is the number of spires, I the current intensity and l the lenght of the solenoid.</p>
+
 <p>When we talk about solenoid it's really important to consider how we wind it:</p>
 
 - use an appropriate wire gauge when building a solenoid, higher gauge means higher current that directly translates into higher magnetic flux
@@ -91,13 +94,14 @@ import Image from 'next/image'
 ## CoilGun MK.I
 
 <Image
-  src="/images/Coilgun_MK1.png"
+  src="/images/Coilgun_MK1/Coilgun_MK1.png"
   alt="Coilgun MK.I"
-  width={1125}
-  height={750}
+  width={1920}
+  height={1080}
   priority
   className="next-image"
 />
+
 <p>This is the first coilgun I've ever made, the Coilgun MK.I. Me and my friend [Alex](https://github.com/AlessandroBonomo28) used a Raspberry Pi 3 to time the firing of the relays to discharge the capacitors into the BAD wound coils. We've been using a small metal pin as projectile, weighting ~2g. This prototype didn't work at all, but surely was a good test bench to learn the basics of electronics and programming.</p>
 
 ### Features
@@ -110,23 +114,25 @@ import Image from 'next/image'
 ## CoilGun MK.II
 
 <Image
-  src="/images/Coilgun_MK2.png"
+  src="/images/Coilgun_MK2/Coilgun_MK2.png"
   alt="Coilgun MK.II"
-  width={1125}
-  height={750}
+  width={5120}
+  height={3840}
   priority
   className="next-image"
 />
+
 <p>Later on with another friend, [Peppe](https://github.com/A-Common-Guy), we started another coilgun project. We started studying the topics we needed to create a functioning coilgun, starting from electromagnetism to power electronics and C++ programming. Then I bought a 3D printer that made the prototyping much more easier than before. A little bit of thinkering and we came up with the Coilgun MK.II. </p>
 
 <Image
-  src="/images/Coilgun_MK2_2.png"
+  src="/images/Coilgun_MK2/Coilgun_MK2_2.png"
   alt="Coilgun MK.II"
-  width={1125}
-  height={750}
+  width={5120}
+  height={3840}
   priority
   className="next-image"
 />
+
 <p>This iteration was the first one that actually worked and didn't just made us waste money.</p>
 
 #### Overall
@@ -139,7 +145,7 @@ import Image from 'next/image'
 <p>The bullet used was a headless 4.5 mm steel nail, weighting ~5g and long ~4cm.</p>
 
 <Image
-  src="/images/Coilgun_MK2_Lattina.gif"
+  src="/images/Coilgun_MK2/Coilgun_MK2_Lattina.gif"
   alt="Coilgun MK.II penetration"
   width={640}
   height={352}
@@ -157,6 +163,16 @@ import Image from 'next/image'
 - Efficency unkown
 
 ### CoilGun MK.III prototype
+
+<Image
+  src="/images/Coilgun_MK3/Coilgun_MK3_Prototype.png"
+  alt="Coilgun MK.III prototype"
+  width={2016}
+  height={1134}
+  priority
+  className="next-image"
+/>
+
 <p>After few years from the MK.II I decided to start a new coilgun. As you can see the model itself doesn't differ much from the MK.II but a few major changes were made:</p>
 
 - Instead of using an Arduino Nano as the MCU I switched to the more powerful Esp32
@@ -165,13 +181,21 @@ import Image from 'next/image'
 
 <p>In the end I decided to scrap this design beacuse I wanted something more modular and easier to assemble. So all of these changes where channeled in the final MK.III design.</p>
 
+## Coilgun MK.III
+
 <Image
-  src="/images/Coilgun_MK3_Prototype.png"
-  alt="Coilgun MK.III prototype"
-  width={1125}
-  height={750}
+  src="/images/Coilgun_MK3/Coilgun_MK3.png"
+  alt="Coilgun MK.III"
+  width={2016}
+  height={1134}
   priority
   className="next-image"
 />
 
-## Coilgun MK.III
+<p>Everything changed.</p>
+
+<p>This is the best design I've come up with in the last 2 years. All the experience gathered in the span of 10 years is inside this design, from the electronic circuit to the 3D model itself.</p>
+
+<p>Let's start!</p>
+
+###
