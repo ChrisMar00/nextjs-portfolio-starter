@@ -29,7 +29,7 @@ The possibility to create a "gun" that runs purely on electricity trilled me. So
 <p>Usually a coilgun is made of stages, each one made up of:</p>
 
 - solenoid a.k.a. Coil
-- capitor bank
+- capacitor bank
 - charger cirucit for the latter
 - firing circuit
 - and a bullet sensor
