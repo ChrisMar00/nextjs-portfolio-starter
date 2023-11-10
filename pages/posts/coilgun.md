@@ -53,7 +53,7 @@ import Image from 'next/image'
 
 <p>where B is the magnetic flux generated from the solenoid, μ0 is the magnetic costant of the material, N is the number of spires, I the current intensity and l the lenght of the solenoid.</p>
 
-<p>When we talk about solenoid it's really important to consider how we wind it:</p>
+<p>When we talk about solenoids it's really important to consider how we wind it:</p>
 
 - use an appropriate wire gauge when building a solenoid, higher gauge means higher current that directly translates into higher magnetic flux
 - always wind in the same direction
