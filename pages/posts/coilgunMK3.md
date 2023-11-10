@@ -9,6 +9,7 @@ author: Chris
 ### CoilGun MK.III prototype
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 <Image
   src="/images/Coilgun_MK3/Coilgun_MK3_Prototype.png"
@@ -49,7 +50,7 @@ import Image from 'next/image'
 <p>Unlike the MK.II, this iteration is fully modular, meaning that stages can be added/removed by simply modifing a couple of lines of code.
 Here's the list of features that'll be broken down:</p>
 
-1. Plug and Play modular stages
+1. <Link href="#Modular_Stages">Plug and Play modular stages</Link>
 2. Esp32-WROOM-32 DEVKITC custom PCB
 3. Separeted SCRs firing circuit PCB
 4. Capacitor Charge Feedback Circuit (CCFC) PCB
@@ -57,3 +58,32 @@ Here's the list of features that'll be broken down:</p>
 6. SCR custom PCB
 7. OLED interface
 8. ZVS Drivers as the capacitors banks chargers
+
+<div id="Modular_Stages">
+
+## 1.Modular stages
+
+<p>The main goal of this coilgun was the modalurity so that there's the possibility to build a user defined number of stage coilgun. For example the MK.III is a 4 stage coilgun that can be expanded in a 5, 6 or even 8 stage without problems.</p>
+
+<p>Creating a modular stage wasn't hard at all, it's a pin based design as you can see here:</p>
+
+<Image
+  src="/images/Coilgun_MK3/Stage.gif"
+  alt="Coilgun MK.III Stage"
+  width={1920}
+  height={1080}
+  priority
+  className="next-image"
+/>
+
+<p>The model is quite simple: </p>
+
+- holes are present on both stage ends to insert the pins that will link the other stages togheter 
+- in the middle the solenoid is wound and incapsulated within the stage 
+- at the end of the stage there's the socket for the CNY70 IR sensor
+- on top there're holes to attach the firing circuit
+- on the bottom there're holes to attach the stage to the base of the coilgun
+
+<p>One of the most important changes it's the positioning of the firing circuit directly on top of the stage itself, this way the wires coming from the coil are shorter that the previous versions, ensuring less energy dissipation from wire resistance.</p>
+
+</div>
