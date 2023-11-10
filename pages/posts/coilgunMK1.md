@@ -25,7 +25,7 @@ import Image from 'next/image'
 
 <p>The 3 coils were wound very badly on a 10mm PVC pipe using scrap enamel copper wire of various sizes.</p> 
 
-<p>To power the coils we used 3 capacitor banks with 4x 25V@4700μF capacitors in parallel, that didn't give us much power to be honest, but we didn't know.</p>
+<p>To power the coils we used 3 capacitor banks with 4x 25V@4700μF capacitors in parallel, that didn't give us much power to be honest, but we didn't know. An SMPS was used to charge up the capacitors to ~25V.</p>
 
 <p>Then to discharge the capacitors into the coils we used a relay board paired with a Raspberry Pi 3 to time the firing. A little python script did the job.</p> 
 
