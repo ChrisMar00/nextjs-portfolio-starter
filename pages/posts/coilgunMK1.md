@@ -19,7 +19,19 @@ import Image from 'next/image'
   className="next-image"
 />
 
-<p>This is the first coilgun I've ever made, the Coilgun MK.I. Me and my friend [Alex](https://github.com/AlessandroBonomo28) used a Raspberry Pi 3 to time the firing of the relays to discharge the capacitors into the BAD wound coils. We've been using a small metal pin as projectile, weighting ~2g. This prototype didn't work at all, but surely was a good test bench to learn the basics of electronics and programming.</p>
+<p>This is the first coilgun I've ever made, the Coilgun MK.I.</p> 
+
+<p>When me and my friend [Alex](https://github.com/AlessandroBonomo28) started this project back in 2014, we had very little knowledge on electronics and programming, so we went out on a limb.</p> 
+
+<p>The 3 coils were wound very badly on a 10mm PVC pipe using scrap enamel copper wire of various sizes.</p> 
+
+<p>To power the coils we used 3 capacitor banks with 4x 25V@4700μF capacitors in parallel, that didn't give us much power to be honest, but we didn't know.</p>
+
+<p>Then to discharge the capacitors into the coils we used a relay board paired with a Raspberry Pi 3 to time the firing. A little python script did the job.</p> 
+
+<p>We've been using a small metal pin as projectile, weighting ~2g.</p> 
+
+<p>This prototype didn't work at all, but surely was a good test bench to learn the basics of electronics and programming.</p>
 
 ### Features
 - Raspberry Pi 3 as the MCU
