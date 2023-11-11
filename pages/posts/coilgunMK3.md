@@ -53,11 +53,14 @@ Here's the list of features that'll be broken down:</p>
 1. <Link href="#Modular_Stages">Plug and Play modular stages</Link>
 2. <Link href="#Esp32">Esp32 custom PCB</Link>
 3. OLED interface
-4. CNY70 IR sensor custom PCB
-5. Separeted SCRs firing circuit PCB
-6. SCR custom PCB 
-7. ZVS Drivers as the capacitors banks chargers
-8. Capacitor Charge Feedback Circuit (CCFC) PCB
+4. Safety
+5. CNY70 IR sensor custom PCB
+6. Separeted SCRs firing circuit PCB
+7. SCR custom PCB
+8. Capacitors banks auto-charge
+9. ZVS Drivers as the capacitors banks chargers
+10. Capacitor Charge Feedback Circuit (CCFC) PCB
+11. Code explanation
 
 <div id="Modular_Stages">
 
@@ -92,6 +95,38 @@ Here's the list of features that'll be broken down:</p>
 
 ## 2.Esp32 Custom Board
 
-<iframe src="https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=70708C40-30E5-46CA-864E-E9531DC05F16&activeView=Gerber" width="1280" height="720" scrolling="no" allowFullScreen="true" style={{border:"none", overflow:"hidden", width:"100%", height:"720px"}}></iframe>
+<p>To control the MK.III I went with an Esp32-WROOM-32 DEVKITC board, widely available and quite powerful. The custom PCB is just a breakout board with all the needed connectors for the coilgun:</p>
+
+1. 5x 3p male headers, for the CNY70 IR sensors of which 4 for the stages and 1 for the bullet sensor
+2. 4x 2p male headers, for the CCFB input
+3. 1x 5p male header, for the SCRs driver circuit
+4. 1x 4p male header, for the OLED display
+5. 1x 2p male header, for the safety
+6. 1x 2p male header, for the trigger
+7. 1x 2p male header, for the Esp32 5V power input
+8. 1x 2p male header, for the debug toggle
+9. 2x 2p screw terminals, for the ZVS Drivers
+
+<p>There're also 2 leds:</p>
+
+1. 1x red 5mm led, for power checking
+2. 1x yellow 5mm led, for debugging
+
+<p>On the board are also present 2 N-Channel mosfets, [IRLZ44N](https://www.mouser.it/datasheet/2/196/Infineon_IRLZ44N_DataSheet_v01_01_EN-3363447.pdf), for the auto-charge feature.</p>
+
+
+<p>Here's the schematic:</p>
+
+<Image
+  src="/images/Coilgun_MK3/Schematics/Mobo_MK3.png"
+  alt="Coilgun MK.III Motherboard"
+  width={2338}
+  height={1655}
+  priority
+  className="next-image"
+/>
+
+<br></br>
+<iframe src="https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=70708C40-30E5-46CA-864E-E9531DC05F16&activeView=Gerber" width="1280" height="720" scrolling="no" allowFullScreen={true} style={{border:"none", overflow:"hidden", width:"100%", height:"720px"}}></iframe>
  
 </div>
