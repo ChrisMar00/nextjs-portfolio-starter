@@ -66,7 +66,7 @@ Here's the list of features that'll be broken down:</p>
 
 ## 1.Modular stages
 
-<p>The main goal of this coilgun was the modalurity so that there's the possibility to build a user defined number of stage coilgun. For example the MK.III is a 4 stage coilgun that can be expanded in a 5, 6 or even 8 stage without problems.</p>
+<p>The main goal of this coilgun was the modalurity so that there's the possibility to build a user defined number of stage coilgun. For example the MK.III is a 4 stage coilgun that can be expanded in a 5, 6 or even 8 stages without problems.</p>
 
 <p>Creating a modular stage wasn't hard at all, it's a pin based design as you can see here:</p>
 
@@ -126,7 +126,8 @@ Here's the list of features that'll be broken down:</p>
   className="next-image"
 />
 
-<br></br>
+<p>And here's the PCB:</p>
+
 <iframe src="https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=70708C40-30E5-46CA-864E-E9531DC05F16&activeView=Gerber" width="1280" height="720" scrolling="no" allowFullScreen={true} style={{border:"none", overflow:"hidden", width:"100%", height:"720px"}}></iframe>
  
 </div>
