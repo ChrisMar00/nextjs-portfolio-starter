@@ -29,7 +29,7 @@ import Image from 'next/image'
 
 <p>Then to discharge the capacitors into the coils we used a relay board paired with a Raspberry Pi 3 to time the firing. A little python script did the job.</p> 
 
-<p>We've been using a small metal pin as projectile, weighting ~2g.</p> 
+<p>We've been using a small metal pin as projectile, weighting ~2g.</p>
 
 <p>This prototype didn't work at all, but surely was a good test bench to learn the basics of electronics and programming.</p>
 

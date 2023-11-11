@@ -51,13 +51,13 @@ import Link from 'next/link'
 Here's the list of features that'll be broken down:</p>
 
 1. <Link href="#Modular_Stages">Plug and Play modular stages</Link>
-2. Esp32-WROOM-32 DEVKITC custom PCB
-3. Separeted SCRs firing circuit PCB
-4. Capacitor Charge Feedback Circuit (CCFC) PCB
-5. CNY70 IR sensor custom PCB
-6. SCR custom PCB
-7. OLED interface
-8. ZVS Drivers as the capacitors banks chargers
+2. <Link href="#Esp32">Esp32 custom PCB</Link>
+3. OLED interface
+4. CNY70 IR sensor custom PCB
+5. Separeted SCRs firing circuit PCB
+6. SCR custom PCB 
+7. ZVS Drivers as the capacitors banks chargers
+8. Capacitor Charge Feedback Circuit (CCFC) PCB
 
 <div id="Modular_Stages">
 
@@ -86,4 +86,12 @@ Here's the list of features that'll be broken down:</p>
 
 <p>One of the most important changes it's the positioning of the firing circuit directly on top of the stage itself, this way the wires coming from the coil are shorter that the previous versions, ensuring less energy dissipation from wire resistance.</p>
 
+</div>
+
+<div id="Esp32">
+
+## 2.Esp32 Custom Board
+
+<iframe src="https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=70708C40-30E5-46CA-864E-E9531DC05F16&activeView=Gerber" width="1280" height="720" scrolling="no" allowFullScreen="true" style={{border:"none", overflow:"hidden", width:"100%", height:"720px"}}></iframe>
+ 
 </div>

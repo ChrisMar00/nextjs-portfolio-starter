@@ -26,9 +26,9 @@ The possibility to create a "gun" that runs purely on electricity trilled me. So
 
 ### Coilgun Stages
 
-<p>Usually a coilgun is made of stages, each one made up of:</p>
+<p>Usually a coilgun is made of one or more stages, each one made up of:</p>
 
-- solenoid a.k.a. Coil
+- solenoid a.k.a. coil
 - capacitor bank
 - charger cirucit for the latter
 - firing circuit
@@ -38,7 +38,9 @@ The possibility to create a "gun" that runs purely on electricity trilled me. So
 
 <p>The most important part of a coilgun its the coil itself. A solenoid is just a piece of wire, usually enamel copper wire, wound to resamble a cilinder.</p>
 
-<p>By passing an electric current into the solenoid we generate a magnetic field that can attrack ferromagnetic objects insiede of it. The attraction can be calculated using this formula:</p>
+<p>By passing an electric current into the solenoid we generate a magnetic field that can attrack ferromagnetic objects insiede of it. If we cut off the current passing through the solenoid at the right time, the object inside of it will escape the coil with a certain velocity, proportional to the magnetic force applied to it.</p>
+
+<p>The attraction can be calculated using this formula:</p>
 
 import Image from 'next/image'
 
@@ -82,11 +84,11 @@ import Image from 'next/image'
   className="next-image"
 />
 
-<p>where C is the capacitance of capacitor and V is the voltage across the latter.</p>
+<p>where C is the capacitance of the capacitor and V is the voltage across the latter.</p>
 
 ### Switching Operations
 
-<p>To switch the capacitors on the coils you should use an electronic switch such as Mosfets or SCRs. Avoid using relays, they're too slow and in higher currents the contacts inside of the relay can get stuck. Also it's really important to use some kind of isolation to separate the high voltage side from the low voltage side.</p>
+<p>To switch the capacitors on the coils you should use an electronic switch such as Mosfets or SCRs. Avoid using relays, they're too slow and in higher currents the contacts inside of the relay can get stuck. Also it's really important to use some kind of isolation to separate the high voltage side from the low voltage side, like octocouplers such as the [PC817](https://www.farnell.com/datasheets/73758.pdf).</p>
 
 ### Bullet sensor
 
@@ -95,4 +97,4 @@ import Image from 'next/image'
 - turn off the exiting stage and turn on the entering stage
 - check if the bullet actually fired
 
-<p>The best sensor in my opinion is the infrared one, evenif I've seen mechanical sensors, like metal tabs at the end of the stage, been used in other designs.</p>
+<p>The best sensor in my opinion is an infrared one, evenif I've seen mechanical sensors, like metal tabs at the end of the stage, been used in other designs.</p>

@@ -55,6 +55,6 @@ import Image from 'next/image'
 ### Features
 - Arduino Nano as the MCU
 - 4 Stages, each one with 2x 400V@1500μF capacitors in parallel
-- SCR with IR sensors as the automated firing tecnique
+- SCRs with IR sensors as the automated firing tecnique
 - Boost converter to charge up the capacitor bank
 - Efficency unkown
