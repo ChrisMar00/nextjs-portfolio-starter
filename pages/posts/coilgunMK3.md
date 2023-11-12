@@ -137,6 +137,6 @@ Here's the list of features that'll be broken down:</p>
 
 ## 3.OLED interface
 
-<p>I wanted some kind of visual feedback but not just simple leds, so I went with an OLED display. At first I used a simple 0.96in model but I later found out that bigger models are available, such as a 1.3in one.</p>
+<p>I wanted some kind of visual feedback but not just simple leds, so I went with an OLED display. At first I used a simple 0.96in model but I later found out that bigger models are available, such as a 1.3in one. The size is the same, 128x64 px, but the screen is wider and the driver is different, SSD12306 for the 0.96in and SH1106 for the 1.3in one. The displays are available both as I2C or SPI, but I prefer using the I2C one.</p>
 
 </div>
