@@ -52,7 +52,7 @@ Here's the list of features that'll be broken down:</p>
 
 1. <Link href="#Modular_Stages">Plug and Play modular stages</Link>
 2. <Link href="#Esp32">Esp32 custom PCB</Link>
-3. OLED interface
+3. <Link href="#OLED">OLED interface</Link>
 4. Safety
 5. CNY70 IR sensor custom PCB
 6. Separeted SCRs firing circuit PCB
@@ -114,6 +114,7 @@ Here's the list of features that'll be broken down:</p>
 
 <p>On the board are also present 2 N-Channel mosfets, [IRLZ44N](https://www.mouser.it/datasheet/2/196/Infineon_IRLZ44N_DataSheet_v01_01_EN-3363447.pdf), for the auto-charge feature.</p>
 
+<p>By shorting togheter the debug toggle pins the debug mode is activated, meaning that through the serial monitor we can check the CNY70 sensors values and see if they're working correctly.</p>
 
 <p>Here's the schematic:</p>
 
@@ -129,5 +130,13 @@ Here's the list of features that'll be broken down:</p>
 <p>And here's the PCB:</p>
 
 <iframe src="https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=70708C40-30E5-46CA-864E-E9531DC05F16&activeView=Gerber" width="1280" height="720" scrolling="no" allowFullScreen={true} style={{border:"none", overflow:"hidden", width:"100%", height:"720px"}}></iframe>
- 
+
+</div>
+
+<div id="OLED">
+
+## 3.OLED interface
+
+<p>I wanted some kind of visual feedback but not just simple leds, so I went with an OLED display. At first I used a simple 0.96in model but I later found out that bigger models are available, such as a 1.3in one.</p>
+
 </div>
