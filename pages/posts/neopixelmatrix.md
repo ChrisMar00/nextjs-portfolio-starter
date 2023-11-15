@@ -1,7 +1,7 @@
 ---
-title: NeoPixel Matrix 48x48 WLED
+title: WS2812B RGB Painting
 date: 2023/10/16
-description: NeoPixel Matrix 48x48 breakdown
+description: Painting made by using WS2812B RGB and WLED software
 tag: Electronics, Esp32
 author: Chris
 ---
