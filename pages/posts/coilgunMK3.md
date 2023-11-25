@@ -66,7 +66,7 @@ Here's the list of features that'll be broken down:</p>
 
 ## 1.Modular stages
 
-<p>The main goal of this coilgun was the modalurity so that there's the possibility to build a user defined number of stage coilgun. For example the MK.III is a 4 stage coilgun that can be expanded in a 5, 6 or even 8 stages without problems.</p>
+<p>The main goal of this coilgun was the modularity so that there's the possibility to build a user defined number of stage coilgun. For example the MK.III is a 4 stage coilgun that can be expanded in a 5, 6 or even 8 stages without problems.</p>
 
 <p>Creating a modular stage wasn't hard at all, it's a pin based design as you can see here:</p>
 
