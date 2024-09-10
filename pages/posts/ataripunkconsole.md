@@ -10,7 +10,7 @@ author: Chris
 
 <p>A few years ago I came across this [Collin's Lab video](https://www.youtube.com/watch?v=Oi3dmSMpjsU), where he showcased a very simple circuit that was able to recreate the distinctive 8 bit sound from the old video games.</p>
 
-<p>The schematic is quite simple, using just 2x 555 Timers or one single 556 double timer and a bunch of passive components for timing purpouse.</p>
+<p>The schematic is quite simple, using just 2x 555 Timers or one single 556 double timer and a bunch of passive components for timing purpouse:</p>
 
 import Image from 'next/image'
 
