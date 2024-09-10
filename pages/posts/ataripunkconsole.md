@@ -17,8 +17,8 @@ import Image from 'next/image'
 <Image
   src="/images/Atari_Punk_Console/Schematic_APC2.png"
   alt="APC Schematic"
-  width={800}
-  height={400}
+  width={1169}
+  height={828}
   priority
   className="next-image"
 />
